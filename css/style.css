@@ -1,0 +1,81 @@
+/* COMMIT 3 */
+*{
+    margin: 0;
+}
+:root{
+     
+     font-size: 20px;
+     padding: 20px;
+     justify-content: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     word-spacing: 1px;
+     /* font-style: italic; */
+     font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 100;
+     
+}
+#lognav{
+    width: 173px;
+    margin: 0 20px ;
+}
+div img{
+    width: 225px;
+}
+h1{
+    color: blue;
+    text-align: center;
+    padding: 1px;
+    margin:10px ;
+    font-size: 50px;
+    font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    
+}
+h2{
+    color: black;
+    padding: 2px;
+    text-align: center;
+    font-size: 1.6em;
+    font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+h3{
+    font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+h4{
+    font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    color: black;
+    padding: 23px;
+    margin: 1px;
+}
+.navbar{
+    position: sticky;top:0;
+    backdrop-filter: blur(45px);
+}
+a{
+    text-decoration: none;
+}
