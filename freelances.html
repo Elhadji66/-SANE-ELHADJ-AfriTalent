@@ -13,11 +13,175 @@ rel="stylesheet">
 </head>
 <body> 
     <!-- Le contenu de la page sera ajoute ici --> 
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+<div class="container"> 
+<img src="images/logo-freelance.webp" alt="">
+<a class="navbar-brand" href="index.html"> Rejoindre AfriTalent</a> 
+<button class="navbar-toggler" type="button" 
+data-bs-toggle="collapse" 
+data-bs-target="#navMenu" 
+aria-controls="navMenu" 
+aria-expanded="false" 
+aria-label="Toggle navigation"> 
+<span class="navbar-toggler-icon"></span> 
+</button> 
+<div class="collapse navbar-collapse" id="navMenu"> 
+<ul class="navbar-nav ms-auto"> 
+<li class="nav-item"><a class="nav-link active" 
+href="index.html">Accueil</a></li> 
+<li class="nav-item"><a class="nav-link" 
+href="freelances.html">Freelances</a></li> 
+<li class="nav-item"><a class="nav-link" 
+href="tarifs.html">Tarifs</a></li> 
+<li class="nav-item"><a class="nav-link" href="about.html">A propos</a></li> 
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Blog</a></li>
+</ul> 
+</div> 
+</div> 
+</nav> 
+<section class="my-5">
+<div>
+    <select name="categorie" id="categorie">
+    <option value="all">Toute les categorie</option>
+    <option value="Graphiste">Graphiste</option>
+    <option value="Développeur">Développeur</option>
+    <option value="Community manager">Community manager</option>
+    <option value="Traducteur">Traducteur</option>
+    <option value="Photographe">Photographe</option>
+    <option value="Rédacteur web">Rédacteur web.</option>
+    </select>
+    <button>Filtrer</button>
+</div>
+</section class="my-5">
+<section>
+<div class="container">
+  <div class="row" id="profiles-grid">
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card">
+        <img src="images/designer.jpeg" class="card-img-top" alt="Photo">
+        <div class="card-body">
+          <h5 class="card-title">Moussa Sarr</h5>
+          <p class="card-text"><strong>Spécialité :</strong> Designer UX/UI</p>
+          <p class="card-text"><strong>Bio courte :</strong> Expert en UX/UI.</p>
+          <p class="card-text"><strong>Tarif :</strong> 20 000 FCFA/h</p>
+          <p class="card-text"><strong>Note :</strong> ★★★★☆</p>
+          <a href="images/designer.jpeg" class="btn btn-primary">Voir le profil »</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card">
+        <img src="images/reseau.jpeg" class="card-img-top" alt="Photo">
+        <div class="card-body">
+          <h5 class="card-title">El hadji Sane</h5>
+          <p class="card-text"><strong>Spécialité :</strong> Ingénieur Réseau</p>
+          <p class="card-text"><strong>Bio courte :</strong> cisco,Sécurité réseau.</p>
+          <p class="card-text"><strong>Tarif :</strong> 25 000 FCFA/h</p>
+          <p class="card-text"><strong>Note :</strong> ★★★★★</p>
+          <a href="images/reseau.jpeg" class="btn btn-primary">Voir le profil »</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card">
+        <img src="images/web.jpeg" class="card-img-top" alt="Photo">
+        <div class="card-body">
+          <h5 class="card-title">Fatou Diop</h5>
+          <p class="card-text"><strong>Spécialité :</strong> Développement web</p>
+          <p class="card-text"><strong>Bio courte :</strong> EXperte en React et Node.js .</p>
+          <p class="card-text"><strong>Tarif :</strong> 15 000 FCFA/h</p>
+          <p class="card-text"><strong>Note :</strong>★★★☆☆ </p>
+          <a href="images/web.jpeg" class="btn btn-primary">Voir le profil »</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12 my-4">
+      <div class="card">
+        <img src="images/redacteur.jpeg" class="card-img-top" alt="Photo">
+        <div class="card-body">
+          <h5 class="card-title">Djibril Fall</h5>
+          <p class="card-text"><strong>Spécialité :</strong> Rédaction</p>
+          <p class="card-text"><strong>Bio courte : </strong>Connaisseur en contenue Digital.</p>
+          <p class="card-text"><strong>Tarif :</strong> 15 000 FCFA/h</p>
+          <p class="card-text"><strong>Note :</strong>★★★☆☆ </p>
+          <a href="images/redacteur.jpeg" class="btn btn-primary">Voir le profil »</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12 my-4">
+      <div class="card">
+        <img src="images/photo.jpeg" class="card-img-top" alt="Photo">
+        <div class="card-body">
+          <h5 class="card-title">Oumar Sy</h5>
+          <p class="card-text"><strong>Spécialité :</strong> Photographe</p>
+          <p class="card-text"><strong>Bio courte :</strong> Capturer l'essence de vos moments.</p>
+          <p class="card-text"><strong>Tarif :</strong> 10 000 FCFA/h</p>
+          <p class="card-text"><strong>Note :</strong> ★★☆☆☆</p>
+          <a href="images/photo.jpeg" class="btn btn-primary">Voir le profil »</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12 my-4">
+      <div class="card">
+        <img src="images/communitty.jpeg" class="card-img-top" alt="Photo">
+        <div class="card-body">
+          <h5 class="card-title">Leane Ndiaye</h5>
+          <p class="card-text"><strong>Spécialité :</strong> Community manager</p>
+          <p class="card-text"><strong>Bio courte :</strong> booster votre présence sur les réseaux .</p>
+          <p class="card-text"><strong>Tarif :</strong> 20 000 FCFA/h</p>
+          <p class="card-text"><strong>Note :</strong> ★★★★☆</p>
+          <a href="images/communitty.jpeg" class="btn btn-primary">Voir le profil »</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card">
+        <img src="images/analyst.jpeg" class="card-img-top" alt="Photo">
+        <div class="card-body">
+          <h5 class="card-title">Aliou Sow</h5>
+          <p class="card-text"><strong>Spécialité :</strong> Data Analyst</p>
+          <p class="card-text"><strong>Bio courte :</strong> Transformer vos données en décisions.</p>
+          <p class="card-text"><strong>Tarif :</strong> 25 000 FCFA/h</p>
+          <p class="card-text"><strong>Note :</strong> ★★★★★</p>
+          <a href="images/analyst.jpeg" class="btn btn-primary">Voir le profil »</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card">
+        <img src="images/marque.jpeg" class="card-img-top" alt="Photo">
+        <div class="card-body">
+          <h5 class="card-title">Ndeye Gueye</h5>
+          <p class="card-text"><strong>Spécialité :</strong> Illustratice</p>
+          <p class="card-text"><strong>Bio courte :</strong> Creation Unique pour votre marque .</p>
+          <p class="card-text"><strong>Tarif :</strong> 20 000 FCFA/h</p>
+          <p class="card-text"><strong>Note :</strong> ★★★★☆</p>
+          <a href="images/marque.jpeg" class="btn btn-primary">Voir le profil »</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card">
+        <img src="images/markiting.jpeg" class="card-img-top" alt="Photo">
+        <div class="card-body">
+          <h5 class="card-title">Khady Diallo</h5>
+          <p class="card-text"><strong>Spécialité :</strong> Consultante Marketing</p>
+          <p class="card-text"><strong>Bio courte :</strong> Stratégie digitales sur mesure.</p>
+          <p class="card-text"><strong>Tarif :</strong> 25 000FCFA/h</p>
+          <p class="card-text"><strong>Note :</strong> ★★★★★</p>
+          <a href="images/markiting.jpeg" class="btn btn-primary">Voir le profil »</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
     <!-- Bootstrap 5 via CDN : script JavaScript --> 
-    <script 
+<script 
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     ></script> 
     <!-- Votre script JavaScript --> 
-    <script src="js/main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
